@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.29aa3948.css",
-    "main.js": "/static/js/main.e80a4be5.js",
-    "static/js/787.75769aee.chunk.js": "/static/js/787.75769aee.chunk.js",
-    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
-    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
-    "index.html": "/index.html",
-    "main.29aa3948.css.map": "/static/css/main.29aa3948.css.map",
-    "main.e80a4be5.js.map": "/static/js/main.e80a4be5.js.map",
-    "787.75769aee.chunk.js.map": "/static/js/787.75769aee.chunk.js.map"
+    "main.css": "/quacksite/static/css/main.a4fed350.css",
+    "main.js": "/quacksite/static/js/main.dcf11691.js",
+    "static/js/787.75769aee.chunk.js": "/quacksite/static/js/787.75769aee.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/quacksite/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/quacksite/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "index.html": "/quacksite/index.html",
+    "main.a4fed350.css.map": "/quacksite/static/css/main.a4fed350.css.map",
+    "main.dcf11691.js.map": "/quacksite/static/js/main.dcf11691.js.map",
+    "787.75769aee.chunk.js.map": "/quacksite/static/js/787.75769aee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29aa3948.css",
-    "static/js/main.e80a4be5.js"
+    "static/css/main.a4fed350.css",
+    "static/js/main.dcf11691.js"
   ]
 }

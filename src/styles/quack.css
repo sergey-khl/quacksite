@@ -1,3 +1,6 @@
-.quackWrapper {
-    background-color: #AED6F1;
+a {
+  color: #FFF;
+}
+a:hover {
+   color: #2ECC71 ;
 }

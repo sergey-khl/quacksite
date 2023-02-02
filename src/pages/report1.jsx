@@ -20,7 +20,7 @@ const Report1 = () => {
           <Col>
             <h4>Connected laptop virtual machine to duckiebot and got it to move 2 meters in a straight line.</h4>
             <video width="750" height="60%" controls>
-              <source src={process.env.PUBLIC_URL + '/2m.mp4'} type="video/mp4" />
+              <source src={process.env.PUBLIC_URL + '/lab1img/2m.mp4'} type="video/mp4" />
             </video>
           </Col>
           <Col>
@@ -30,12 +30,12 @@ const Report1 = () => {
           <Col>
             <h4>Follows road lines in duckietown.</h4>
             <video width="750" height="60%" controls>
-              <source src={process.env.PUBLIC_URL + '/line_demo.mp4'} type="video/mp4" />
+              <source src={process.env.PUBLIC_URL + '/lab1img/line_demo.mp4'} type="video/mp4" />
             </video>
           </Col>
           <Col>
             <h4>ran docker image in duck</h4>
-            <img src={process.env.PUBLIC_URL + '/duck_hello.png'} className="img-fluid" alt="Responsive image"></img>
+            <img src={process.env.PUBLIC_URL + '/lab1img/duck_hello.png'} className="img-fluid" alt="Responsive image"></img>
           </Col>
         </Row>
         <Row>
@@ -48,14 +48,14 @@ const Report1 = () => {
           <hr />
           <Col>
             <h4>Could not get the color detector to work. Many had problems with this so it was made non mandatory.</h4>
-            <img width="750" height="60%" src={process.env.PUBLIC_URL + '/color_detect.png'} className="img-fluid" alt="Responsive image"></img>
+            <img width="750" height="60%" src={process.env.PUBLIC_URL + '/lab1img/color_detect.png'} className="img-fluid" alt="Responsive image"></img>
           </Col>
           <Col>
             <h4>
               My dashboard had a weird bug where it would redirect me to a "website under construction" page.
               To fix I reflashed the SD card and it started working.
             </h4>
-            <img width="750" height="60%" src={process.env.PUBLIC_URL + '/dashboard.png'} className="img-fluid" alt="Responsive image"></img>
+            <img width="750" height="60%" src={process.env.PUBLIC_URL + '/lab1img/dashboard.png'} className="img-fluid" alt="Responsive image"></img>
           </Col>
         </Row>
       </Container>

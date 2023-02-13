@@ -5,11 +5,9 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import { Row, Col, Container } from 'react-bootstrap';
 
 const Report1 = () => {
-  const quackURL = process.env === 'production' ? "https://sergey-khl.github.io/quacksite" : "http://localhost:3000/";
   return (
     <div className="quackWrapper">
       <Container>
-        <a href={quackURL} rel='noopener noreferrer' className="btn btn-dark mt-5" role="button"><i class="bi bi-arrow-left"></i></a>
         <Row>
 
           <h1 class="display-1 my-3">Lab 1: duck init</h1>

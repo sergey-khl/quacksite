@@ -24,13 +24,18 @@ const Quack = () => {
           </Col>
           <Col xs={{ span: 2, offset: 1 }}>
           <Card>  
-              <Card.Img variant="top" src={process.env.PUBLIC_URL + '/DUCK.jpg'} />  
+              <Card.Img variant="top" src={process.env.PUBLIC_URL + '/lab2img/duck2.jpg'} />  
               <Card.Body>  
                 <Card.Title>Report 2</Card.Title>  
                 <Card.Text>  
                 Started programming the duckiebot with ros!
                 </Card.Text>  
-                <Button variant="primary"><Link to="/2">To report!</Link></Button>  
+                <div className='resume'>
+                        <a href={process.env.PUBLIC_URL + '/report2.pdf'} target='_blank' rel='noopener noreferrer' className="btn btn-outline-primary btn-lg" role="button">
+                            To Report!&nbsp;
+                            <i className="bi bi-filetype-pdf"></i>
+                        </a>
+                    </div>   
               </Card.Body>  
             </Card>  
           </Col>

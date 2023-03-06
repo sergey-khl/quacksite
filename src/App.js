@@ -3,7 +3,8 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Quack from './pages/quack';
 import Report1 from './pages/report1';
-import Report2 from './pages/report2';
+// report 2 is pdf rn
+import Report3 from './pages/report3';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <Routes>
       <Route exact path="/" element={<Quack/>} />
       <Route path="/1" element={<Report1/>} />
-      <Route path="/2" element={<Report2/>} />
+      <Route path="/3" element={<Report3/>} />
       
     </Routes>
   );

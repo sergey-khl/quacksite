@@ -9,6 +9,12 @@ const Quack = () => {
   return (
     <div>
       <Container>
+        <div className='d-flex justify-content-center mt-5'>
+            <a href={"https://github.com/sergey-khl/412ducks"} target='_blank' rel='noopener noreferrer' className="btn btn-outline-primary btn-lg" role="button">
+                Github&nbsp;
+                <i class="bi bi-github"></i>
+            </a>
+        </div>  
         <Row className='mt-5'>
           <Col xs={{ span: 2, offset: 1 }}>
             <Card>  
@@ -30,12 +36,24 @@ const Quack = () => {
                 <Card.Text>  
                 Started programming the duckiebot with ros!
                 </Card.Text>  
-                <div className='resume'>
+                <div>
                         <a href={process.env.PUBLIC_URL + '/report2.pdf'} target='_blank' rel='noopener noreferrer' className="btn btn-outline-primary btn-lg" role="button">
                             To Report!&nbsp;
                             <i className="bi bi-filetype-pdf"></i>
                         </a>
                     </div>   
+              </Card.Body>  
+            </Card>  
+          </Col>
+          <Col xs={{ span: 2, offset: 1 }}>
+          <Card>  
+              <Card.Img variant="top" src={process.env.PUBLIC_URL + '/lab3img/duck.jpg'} />  
+              <Card.Body>  
+                <Card.Title>Report 3</Card.Title>  
+                <Card.Text>  
+                Localization with apriltags, visualization in rviz and lane following
+                </Card.Text>  
+                <Button variant="primary"><Link to="/3">To report!</Link></Button>  
               </Card.Body>  
             </Card>  
           </Col>

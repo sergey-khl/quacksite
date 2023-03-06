@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/quacksite/static/css/main.dfdd1f3e.css",
-    "main.js": "/quacksite/static/js/main.72a7d909.js",
+    "main.css": "/quacksite/static/css/main.79573458.css",
+    "main.js": "/quacksite/static/js/main.39922bd6.js",
     "static/js/787.75769aee.chunk.js": "/quacksite/static/js/787.75769aee.chunk.js",
     "static/media/bootstrap-icons.woff?": "/quacksite/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/bootstrap-icons.woff2?": "/quacksite/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "index.html": "/quacksite/index.html",
-    "main.dfdd1f3e.css.map": "/quacksite/static/css/main.dfdd1f3e.css.map",
-    "main.72a7d909.js.map": "/quacksite/static/js/main.72a7d909.js.map",
+    "main.79573458.css.map": "/quacksite/static/css/main.79573458.css.map",
+    "main.39922bd6.js.map": "/quacksite/static/js/main.39922bd6.js.map",
     "787.75769aee.chunk.js.map": "/quacksite/static/js/787.75769aee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfdd1f3e.css",
-    "static/js/main.72a7d909.js"
+    "static/css/main.79573458.css",
+    "static/js/main.39922bd6.js"
   ]
 }

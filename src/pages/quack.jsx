@@ -9,14 +9,14 @@ const Quack = () => {
   return (
     <div>
       <Container>
-        <div className='d-flex justify-content-center mt-5'>
+        <div className='d-flex justify-content-center pt-5'>
             <a href={"https://github.com/sergey-khl/412ducks"} target='_blank' rel='noopener noreferrer' className="btn btn-outline-primary btn-lg" role="button">
                 Github&nbsp;
                 <i class="bi bi-github"></i>
             </a>
         </div>  
-        <Row className='mt-5'>
-          <Col xs={{ span: 2, offset: 1 }}>
+        <Row className='pt-5'>
+          <Col md={{ span: 3, offset: 0 }}>
             <Card>  
               <Card.Img variant="top" src={process.env.PUBLIC_URL + '/DUCK.jpg'} />  
               <Card.Body>  
@@ -28,7 +28,7 @@ const Quack = () => {
               </Card.Body>  
             </Card>  
           </Col>
-          <Col xs={{ span: 2, offset: 1 }}>
+          <Col md={{ span: 3, offset: 0 }}>
           <Card>  
               <Card.Img variant="top" src={process.env.PUBLIC_URL + '/lab2img/duck2.jpg'} />  
               <Card.Body>  
@@ -45,7 +45,7 @@ const Quack = () => {
               </Card.Body>  
             </Card>  
           </Col>
-          <Col xs={{ span: 2, offset: 1 }}>
+          <Col md={{ span: 3, offset: 0 }}>
           <Card>  
               <Card.Img variant="top" src={process.env.PUBLIC_URL + '/lab3img/duck.jpg'} />  
               <Card.Body>  
@@ -54,6 +54,18 @@ const Quack = () => {
                 Localization with apriltags, visualization in rviz and lane following
                 </Card.Text>  
                 <Button variant="primary"><Link to="/3">To report!</Link></Button>  
+              </Card.Body>  
+            </Card>  
+          </Col>
+          <Col md={{ span: 3, offset: 0 }}>
+          <Card>  
+              <Card.Img variant="top" src={process.env.PUBLIC_URL + '/lab4img/duck.jpg'} />  
+              <Card.Body>  
+                <Card.Title>Report 4</Card.Title>  
+                <Card.Text>  
+                  Following other duckiebots and autonomous driving!
+                </Card.Text>  
+                <Button variant="primary"><Link to="/4">To report!</Link></Button>  
               </Card.Body>  
             </Card>  
           </Col>

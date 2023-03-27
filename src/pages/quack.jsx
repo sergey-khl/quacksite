@@ -16,7 +16,7 @@ const Quack = () => {
             </a>
         </div>  
         <Row className='pt-5'>
-          <Col md={{ span: 3, offset: 0 }}>
+          <Col md={{ span: 2, offset: 0 }}>
             <Card>  
               <Card.Img variant="top" src={process.env.PUBLIC_URL + '/DUCK.jpg'} />  
               <Card.Body>  
@@ -28,7 +28,7 @@ const Quack = () => {
               </Card.Body>  
             </Card>  
           </Col>
-          <Col md={{ span: 3, offset: 0 }}>
+          <Col md={{ span: 2, offset: 0 }}>
           <Card>  
               <Card.Img variant="top" src={process.env.PUBLIC_URL + '/lab2img/duck2.jpg'} />  
               <Card.Body>  
@@ -45,7 +45,7 @@ const Quack = () => {
               </Card.Body>  
             </Card>  
           </Col>
-          <Col md={{ span: 3, offset: 0 }}>
+          <Col md={{ span: 2, offset: 0 }}>
           <Card>  
               <Card.Img variant="top" src={process.env.PUBLIC_URL + '/lab3img/duck.jpg'} />  
               <Card.Body>  
@@ -57,7 +57,7 @@ const Quack = () => {
               </Card.Body>  
             </Card>  
           </Col>
-          <Col md={{ span: 3, offset: 0 }}>
+          <Col md={{ span: 2, offset: 0 }}>
           <Card>  
               <Card.Img variant="top" src={process.env.PUBLIC_URL + '/lab4img/duck.jpg'} />  
               <Card.Body>  
@@ -66,6 +66,18 @@ const Quack = () => {
                   Following other duckiebots and autonomous driving!
                 </Card.Text>  
                 <Button variant="primary"><Link to="/4">To report!</Link></Button>  
+              </Card.Body>  
+            </Card>  
+          </Col>
+          <Col md={{ span: 2, offset: 0 }}>
+          <Card>  
+              <Card.Img variant="top" src={process.env.PUBLIC_URL + '/lab5img/duck.jpg'} />  
+              <Card.Body>  
+                <Card.Title>Report 5</Card.Title>  
+                <Card.Text>  
+                  Machine learning for duckiebots
+                </Card.Text>  
+                <Button variant="primary"><Link to="/5">To report!</Link></Button>  
               </Card.Body>  
             </Card>  
           </Col>

@@ -12,15 +12,15 @@ import ReportVid from '../components/reportVid'
 
 const Report4 = () => {
   return (
-    <div className="quackWrapper">
+    <div className="quackWrapper4">
       <Container fluid>
         <h1>CMPUT 412: Exercise 4 - Don’t Crash! Tailing Behaviour</h1>
         <h4>Justin Valentine (jvalenti), Sergey Khlynovskiy (khlynovs)</h4>
-        <div className='sec'>
+        <div className='sec4'>
           <h3><b>Introduction</b></h3>
           <p>The goal of this lab exercise is to implement an autonomous tailing behavior on a Duckiebot. The task requires the implementation of a strategy to follow another Duckiebot at a safe driving distance, while still adhering to the rules of the road. This report will describe the implemented strategy for maintaining a safe driving distance and avoiding collisions, as well as discuss the results of the implementation. Finally, a video demonstration will be provided to showcase the successful execution of the implemented strategy.</p>
         </div>
-        <div className='sec'>
+        <div className='sec4'>
           <h3><b>Implementation</b></h3>
           <h4>Strategy</h4>
           <p>Our strategy for this lab involves implementing four key features: Lane following, Stop line detection, Duckiebot marker detection, and PID controllers. These features work together to enable our system to complete the task at hand. The system works as follows:</p>
@@ -32,7 +32,7 @@ const Report4 = () => {
           <p>To detect turns, we use the x-value position of the Duckiebot's marker. If it exceeds a certain threshold, a hard-coded turning routine is initiated. However, this approach is not always reliable, as the scale of the x-value can vary depending on the distance between the Duckiebot’s at the time of measurement. </p>
           <p>To find the red line we check for HSV values between (0, 120, 120) and (15, 255, 255). This larger range for saturation and value increases robustness in case some leds are turned on and distort the camera view. The red line is found similarly to how the yellow line is in the template.</p>
         </div>
-        <div className='sec'>
+        <div className='sec4'>
           <h3><b>Results</b></h3>
           <ListGroup as="ol" numbered>
             <ListGroup.Item as="li">How well did your implemented strategy work? 
@@ -52,7 +52,7 @@ const Report4 = () => {
             <ReportVid vid={"hy1kpFwfHWY"} w={"100%"} h={"90%"}>DELIVERABLE: trailing other duckiebots and following english driver rules if no bots are seen.</ReportVid>
           </Row>
         </div>
-        <div className='sec' style={ { maxWidth: "100%", wordBreak: 'break-all' } }>
+        <div className='sec4' style={ { maxWidth: "100%", wordBreak: 'break-all' } }>
           <h3><b>References</b></h3>
           <ListGroup as="ol" numbered>
             <ListGroup.Item as="li">

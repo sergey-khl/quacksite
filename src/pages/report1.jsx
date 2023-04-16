@@ -6,7 +6,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 
 const Report1 = () => {
   return (
-    <div className="quackWrapper">
+    <div className="quackWrapper1">
       <Container>
         <Row>
 

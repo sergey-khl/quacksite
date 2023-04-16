@@ -81,6 +81,18 @@ const Quack = () => {
               </Card.Body>  
             </Card>  
           </Col>
+          <Col md={{ span: 2, offset: 0 }}>
+          <Card>  
+              <Card.Img variant="top" src={process.env.PUBLIC_URL + '/labfinalimg/duck.jpg'} />  
+              <Card.Body>  
+                <Card.Title>Report Finale</Card.Title>  
+                <Card.Text>  
+                  Don't hit the ducks!
+                </Card.Text>  
+                <Button variant="primary"><Link to="/final">To report!</Link></Button>  
+              </Card.Body>  
+            </Card>  
+          </Col>
         </Row>
       </Container>
     </div>

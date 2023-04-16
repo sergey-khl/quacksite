@@ -12,11 +12,11 @@ import ReportVid from '../components/reportVid'
 
 const Report5 = () => {
   return (
-    <div className="quackWrapper">
+    <div className="quackWrapper5">
       <Container fluid>
         <h1>CMPUT 412: Exercise 5 - ML for Robotics</h1>
         <h4>Justin Valentine (jvalenti), Sergey Khlynovskiy (khlynovs)</h4>
-        <div className='sec'>
+        <div className='sec5'>
           <h3><b>1.1 MNIST Dataset and ML basic terminologies:</b></h3>
           <h4>Delivarable 1</h4>
           <Row xs={1} md={2} className="min">
@@ -49,7 +49,7 @@ training process
           </ListGroup>
 
         </div>
-        <div className='sec'>
+        <div className='sec5'>
           <h3><b>1.2 Number Detection Node:</b></h3>
           <h4>Robust Traversal of Duckie Town:</h4>
           <p>A primary focus on robustness guided the development of our Duckie Town traversal architecture. We aimed to achieve this by incorporating sensory feedback to inform the bot about its optimal state. </p>
@@ -117,7 +117,7 @@ training process
             <ReportVid vid={"DGSmNiCFo-A"} w={"100%"} h={"90%"}>DELIVERABLE 3: The following video shows the robot moving around duckietown and detecting all the digits. Shutting down after it has done so. We present the original distorted image of the bot as well as the filtering of the numbers that the bot uses.</ReportVid>
           </Row>
           </div>
-        <div className='sec' style={ { maxWidth: "100%", wordBreak: 'break-all' } }>
+        <div className='sec5' style={ { maxWidth: "100%", wordBreak: 'break-all' } }>
           <h3><b>References</b></h3>
           <ListGroup as="ol" numbered>
             <ListGroup.Item as="li">

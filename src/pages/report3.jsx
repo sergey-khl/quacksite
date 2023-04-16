@@ -12,11 +12,11 @@ import ReportVid from '../components/reportVid'
 
 const Report3 = () => {
   return (
-    <div className="quackWrapper">
+    <div className="quackWrapper3">
       <Container fluid>
         <h1>CMPUT 412: Exercise 3 - Computer Vision for Robotics</h1>
         <h4>Justin Valentine (jvalenti), Sergey Khlynovskiy (khlynovs)</h4>
-        <div className="sec">
+        <div className="sec3">
           <h3><b>Part One - Computer Vision</b></h3>
           <h4>1.2 Apriltag Node</h4>
           <ListGroup as="ol" numbered>
@@ -99,7 +99,7 @@ self._tf_broadcaster.sendTransform(
           </Row>
 
         </div>
-        <div className='sec'>
+        <div className='sec3'>
           <h3><b>Part Two - Lane Following</b></h3>
           <h4>Step 1: HSV filter</h4>
           <Row xs={1} md={2} className="min">
@@ -176,7 +176,7 @@ self._tf_broadcaster.sendTransform(
             </ListGroup.Item>
           </ListGroup>
         </div>
-        <div className='sec'>
+        <div className='sec3'>
           <h3><b>Part Three - Localization Using Sensor Fusion</b></h3>
           <h4>3.1: Odometry Frame</h4>
           <p>
@@ -346,7 +346,7 @@ self._tf_broadcaster.sendTransform(
             <ReportVid vid={"k4He6dnQWok"} w={"100%"} h={"90%"}>DELIVERABLE 7: moving around duckietown and teleporting if an apriltag is found</ReportVid>
           </Row>
         </div>
-        <div className='sec' style={ { maxWidth: "100%", wordBreak: 'break-all' } }>
+        <div className='sec3' style={ { maxWidth: "100%", wordBreak: 'break-all' } }>
           <h3><b>References</b></h3>
           <ListGroup as="ol" numbered>
             <ListGroup.Item as="li">
